@@ -35,9 +35,8 @@
   font-size: 25px;
 }
 
-
 .h1,
-.h2{
+.h2 {
   color: #ff6b00;
   font-family: "Crete Round", sans-serif;
   font-weight: 400;
@@ -46,6 +45,7 @@
   letter-spacing: 1px;
   text-align: left;
 }
+
 .h3 {
   margin-top: 0;
   color: #fff5e1;
@@ -102,8 +102,3 @@
 .logon {
   width: 10px;
 }
-
-
-
-
-
