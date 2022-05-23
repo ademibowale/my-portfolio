@@ -1,6 +1,5 @@
 Mobile App VERSION
 Project Name
-my-portfolio
 MOBILE-VERSION
 
  Project Description.
