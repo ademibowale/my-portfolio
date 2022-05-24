@@ -2,8 +2,7 @@ Mobile App VERSION
 Project Name
 MOBILE-VERSION
 
- Project Description.
-
+Project Description.
 This is my portfolio website where I show my recent projects and my contact information built with HTML and CSS.
 
 Built With
