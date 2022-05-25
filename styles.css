@@ -386,15 +386,9 @@
   margin-top: 30px;
 }
 
-.form {
-  font-family: sans-serif;
-  font-style: normal;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0;
-  margin: 58px 0;
+.line{width: 100%;
 }
+
 
 .get-button {
   background: #ff6b00;
