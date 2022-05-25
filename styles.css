@@ -15,7 +15,7 @@
 
 .header {
   background-color: #3c3a39;
-  height: 5vh;
+  height: 12vh;
 }
 
 .john-doe {
@@ -35,26 +35,37 @@
   font-size: 25px;
 }
 
-.h1,
+ .h1,
 .h2 {
   color: #ff6b00;
-  font-family: "Crete Round", sans-serif;
-  font-weight: 400;
-  line-height: 42px;
-  font-size: 35px;
-  letter-spacing: 1px;
+  font-family: "Crete Round";
+  font-weight: 700%;
+  line-height: 54px;
+  font-size: 45px;
+  letter-spacing: 0.37px;
   text-align: left;
-}
-
-.h3 {
+  height: 50px;
+  width: 400px;
+  font-style: normal;
+  border: #ff6b00;
+  flex: none;
+  order: 0;
+  flex-grow: 0;}
+  
+ .h3 {
   margin-top: 0;
   color: #fff5e1;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 200%;
   line-height: 15px;
   text-align: left;
-}
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  display: flex;
+  padding:10px 5px;
+ }
 
 .main-section {
   background-image: url("./images/headline Illustration.png");
