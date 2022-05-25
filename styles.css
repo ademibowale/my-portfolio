@@ -103,7 +103,6 @@
   width: 10px;
 }
 
-
 .works {
   font-family: "Crete Round", serif;
   font-size: 30px;
@@ -180,6 +179,12 @@
   margin: 20px auto 10px;
 }
 
+.project li {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
 .list li:hover {
   background: #3c3a39;
   color: #fff;
@@ -226,12 +231,6 @@
   background: #e5e5e5;
   border: none;
   color: #5b5957;
-}
-
-.project li {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
 }
 
 .project-card {
@@ -386,9 +385,9 @@
   margin-top: 30px;
 }
 
-.line{width: 100%;
+.line {
+  width: 100%;
 }
-
 
 .get-button {
   background: #ff6b00;
