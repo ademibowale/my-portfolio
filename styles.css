@@ -398,7 +398,7 @@
 }
 
 .line {
-  width:100%;
+  width: 100%;
 }
 
 .get-button {
@@ -431,8 +431,6 @@
   align-items: center;
   padding: 0;
   margin: 58px 0;
-  
-  
 }
 
 #fname,
@@ -461,14 +459,14 @@
 
 .social-icons {
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   padding-top: 20px;
   max-width: 200px;
   margin: 70px 0 110px;
   margin-left: 120px;
   justify-items: center;
   padding-right: 30px;
-  }
+}
 
 .social-logos {
   color: #505f79;
@@ -476,8 +474,6 @@
   height: 15px;
   margin-top: 10px;
 }
-
-
 
 .footer {
   position: fixed;
@@ -489,4 +485,3 @@
   text-align: center;
   padding: 30px 20px;
 }
- 
