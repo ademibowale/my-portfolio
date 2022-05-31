@@ -42,11 +42,11 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the issues page.
 
-Show your support:
+SHOW YOUR SUPPORT:
 Give a ⭐ if you like this project!
 
 
-Acknowledgments:
+ACKNOWLEDGEMENT:
 Hat tip to anyone whose code was used
 Inspiration.
 etc
