@@ -46,9 +46,9 @@
   text-align: center;
   color: #fff;
   text-decoration: none;
-  padding: 20px 0px;
+  padding: 20px 0;
   margin: 20px -18px;
-} 
+}
 
 .main-section {
   background-image: url("./images/headline Illustration.png");
@@ -494,23 +494,23 @@
 .nav-list {
   display: none;
 }
-.my-container{display:none;
+
+.my-container {
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
-    
-.grid-container{
-  display:none;
+  .grid-container {
+    display: none;
   }
 
-.my-container{
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  margin: 50px;
- 
-  
-}
+  .my-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 50px;
+  }
+
   .header-bar {
     display: none;
   }
@@ -518,7 +518,9 @@
   .header .header-bar {
     display: none;
   }
-  .zeeh{font-family: "roboto", sans-serif;
+
+  .zeeh {
+    font-family: "roboto", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 24px;
@@ -529,7 +531,6 @@
     padding: 20px 26px;
     margin: 20px -2px;
   }
-  
 
   .bank {
     background-image: url("./images/img\ Placeholderdesek2.png");
@@ -568,7 +569,7 @@
     font-size: 20px;
     line-height: 44px;
     color: #fff;
-    padding-top:70px;
+    padding-top: 70px;
   }
 
   .kards {
@@ -587,7 +588,7 @@
   .project-card {
     height: 400px;
   }
-  
+
   .recent-work {
     display: grid;
     grid-template-columns: 30% 70%;
@@ -620,11 +621,10 @@
   .main-section > ul {
     order: 1;
     flex-direction: column;
-    padding: 7px;
     margin-right: 12px;
     width: fit-content;
     justify-content: flex-start;
-    padding:53px 17px;
+    padding: 53px 17px;
   }
 
   .project {
@@ -679,7 +679,6 @@
     border: 1px solid #f55800;
     background: #fff5e1;
     color: #f55800;
-    
   }
 
   .header {
@@ -750,7 +749,7 @@
     flex: none;
     order: 0;
     flex-grow: 0;
-    padding:20px 30px
+    padding: 20px 30px;
   }
 
   .h3 {
