@@ -70,7 +70,7 @@
   letter-spacing: 0.37px;
   text-align: left;
   height: 50px;
-  width: 400px;
+  max-width: 400px;
   font-style: normal;
   border: #ff6b00;
   flex: none;
@@ -406,20 +406,26 @@
   margin-right: 8px;
 }
 
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  padding: 0 1rem;
+}
+
 .intro-text {
-  width: 250px;
+  margin-top: 30px;
+  text-align: center;
   font-family: sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 23px;
   line-height: 39px;
-  text-align: center;
   color: #172b4d;
-  margin-left: 5rem;
-  margin-top: 30px;
 }
 
 .form {
+  width: 100%;
   font-family: sans-serif;
   font-style: normal;
   display: flex;
@@ -451,13 +457,23 @@
   color: #5b5957;
 }
 
-.social-icons {
+footer {
+  width: 100%;
+  text-align: center;
+}
+
+footer .social-icons {
+  width: 100%;
   display: flex;
-  justify-content: space-evenly;
-  padding-top: 10px;
-  max-width: 100px;
-  margin: 70px 0 110px;
-  margin-left: 200px;
+  justify-content: center;
+  /* padding: 10px; */
+  /* max-width: 100px; */
+  /* margin: 70px auto 110px; */
+  /* margin-left: 200px; */
+}
+
+footer li {
+  padding: 10px;
 }
 
 .social-logos {
@@ -817,5 +833,37 @@
 
   .logo {
     width: 5px;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+    margin: 130px auto 0;
+  }
+  
+  .intro-text {
+    max-width: 455px;
+    /* width: 50%; */
+    margin-right: 24px;
+    margin-top: 0;
+    text-align: left;
+  }
+
+  .form {
+    max-width: 684px;
+    margin: 0;
+  }
+
+  #fname,
+  #email {
+    background-color: #dbd8d7;
+    width: 100%;
+  }
+  
+  .textarea {
+    background-color: #dbd8d7;
+    width: 100%;
   }
 }
