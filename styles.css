@@ -51,7 +51,7 @@
 }
 
 .main-section {
-  background-image: url("./images/headline Illustration.png");
+  background-image: url("./images/headline_Illustration.png");
   background-repeat: no-repeat;
   background-position: right 0% bottom -50%;
   background-size: 245px;
@@ -268,7 +268,7 @@
 }
 
 .project-card {
-  background-image: url("./images/professional\pic.png");
+  background-image: url("./images/professionalpic.png");
   background-repeat: no-repeat;
   opacity: 10;
   background-size: cover;
@@ -381,7 +381,7 @@
 }
 
 .about {
-  background-image: url("./images/about\ image\ .png");
+  background-image: url("./images/about_image.png");
   background-repeat: no-repeat;
   background-position: right 0% bottom 0%;
   background-size: 120px;
@@ -409,7 +409,6 @@
 .contact-form {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
   padding: 0 1rem;
 }
 
@@ -466,11 +465,7 @@ footer .social-icons {
   width: 100%;
   display: flex;
   justify-content: center;
-  /* padding: 10px; */
-  /* max-width: 100px; */
-  /* margin: 70px auto 110px; */
-  /* margin-left: 200px; */
-}
+  }
 
 footer li {
   padding: 10px;
@@ -549,7 +544,7 @@ footer li {
   }
 
   .bank {
-    background-image: url("./images/img\ Placeholderdesek2.png");
+    background-image: url("./images/img_Placeholderdesek2.png");
     background-repeat: no-repeat;
     opacity: 10;
     background-size: cover;
@@ -562,7 +557,7 @@ footer li {
   }
 
   .banker {
-    background-image: url("./images/img\ Placeholderdesk.png");
+    background-image: url("./images/img_Placeholderdesk.png");
     background-repeat: no-repeat;
     opacity: 10;
     background-size: cover;
@@ -575,7 +570,7 @@ footer li {
   }
 
   .kard {
-    background-image: url("./images/img\ Placeholder13.png");
+    background-image: url("./images/img_Placeholder13.png");
     background-repeat: no-repeat;
     opacity: 10;
     background-size: cover;
@@ -589,7 +584,7 @@ footer li {
   }
 
   .kards {
-    background-image: url("./images/img\ Placeholder14.png");
+    background-image: url("./images/img_Placeholder14.png");
     background-repeat: no-repeat;
     opacity: 10;
     background-size: cover;
@@ -838,14 +833,12 @@ footer li {
   .contact-form {
     display: flex;
     flex-direction: row;
-    /* align-items: center; */
     justify-content: center;
     margin: 130px auto 0;
   }
   
   .intro-text {
     max-width: 455px;
-    /* width: 50%; */
     margin-right: 24px;
     margin-top: 0;
     text-align: left;
