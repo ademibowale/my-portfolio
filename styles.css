@@ -48,6 +48,7 @@
   text-decoration: none;
   padding: 20px 0;
   margin: 20px -18px;
+ 
 }
 
 .main-section {
@@ -76,13 +77,6 @@
   flex: none;
   order: 0;
   flex-grow: 0;
-}
-
-.h2:hover {
-  transition-duration: 2s;
-  transition-property: background-color;
-  background-color: #ff6b00;
-  color: white;
 }
 
 .h3 {
@@ -615,14 +609,42 @@ footer .social-icons {
   .nav-list {
     display: flex;
     margin-right: 15px;
+    
   }
+  .animate-bar{
+    display: flex;
+    gap: 1.5rem;
+    
+  }
+
+  .animate-bar{
+    flex: 1;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease-out;
+  }
+  
+  .animate-bar:hover,
+  .animate-bar:focus {
+    background-color: #f55800;
+    color: #333;
+  }
+
+
+
 
   .nav-list li {
     padding: 0 10px;
+    
   }
 
   .nav-list a {
     color: #fff;
+    
   }
 
   .main-section > div {
@@ -743,6 +765,21 @@ footer .social-icons {
     text-align: left;
     padding: 6px 34px;
   }
+.anim{
+  border-style: solid;
+  border-width: 1px;
+  display: block;
+  width: 100px;
+  height: 100px;
+  transition: width 3s, height 2s, background-color 2s, transform 2s;
+
+
+}
+.anim:hover {
+  width: 100px;
+  height: 100px;
+  transform: rotate(360deg);
+}
 
   .h1,
   .h2 {
@@ -776,13 +813,6 @@ footer .social-icons {
     flex-grow: 0;
     display: flex;
     padding: 26px 34px;
-  }
-
-  .h2:hover {
-    transition-duration: 2s;
-    transition-property: background-color;
-    background-color: #ff6b00;
-    color: white;
   }
 
   .about {
