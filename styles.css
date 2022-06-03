@@ -608,7 +608,8 @@ footer .social-icons {
 
   .nav-list {
     display: flex;
-    margin-right: 15px;
+    /* margin-right: 15px; */
+    margin: -15px 30px;
     
   }
   .animate-bar{
@@ -663,7 +664,7 @@ footer .social-icons {
   .project {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 50px;
+    gap: 20px;
     box-sizing: border-box;
   }
 
