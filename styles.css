@@ -48,7 +48,6 @@
   text-decoration: none;
   padding: 20px 0;
   margin: 20px -18px;
- 
 }
 
 .main-section {
@@ -608,18 +607,16 @@ footer .social-icons {
 
   .nav-list {
     display: flex;
-    /* margin-right: 15px; */
-    margin: -15px 30px;
-    
-  }
-  .animate-bar{
-    display: flex;
-    gap: 1.5rem;
-    
+    margin: -15px 20px;
+    gap: 5px;
+    padding-bottom: 9px;
+    padding-top: 22px;
+    margin-top: -28px;
   }
 
-  .animate-bar{
-    flex: 1;
+  .animate-bar {
+    display: flex;
+    gap: 1.5rem;
     background-color: #333;
     color: #fff;
     border: 1px solid;
@@ -628,24 +625,19 @@ footer .social-icons {
     text-decoration: none;
     transition: all 0.5s ease-out;
   }
-  
+
   .animate-bar:hover,
   .animate-bar:focus {
     background-color: #f55800;
     color: #333;
   }
 
-
-
-
   .nav-list li {
-    padding: 0 10px;
-    
+    padding: 4px 10px;
   }
 
   .nav-list a {
     color: #fff;
-    
   }
 
   .main-section > div {
@@ -766,21 +758,21 @@ footer .social-icons {
     text-align: left;
     padding: 6px 34px;
   }
-.anim{
-  border-style: solid;
-  border-width: 1px;
-  display: block;
-  width: 100px;
-  height: 100px;
-  transition: width 3s, height 2s, background-color 2s, transform 2s;
 
+  .anim {
+    border-style: solid;
+    border-width: 1px;
+    display: block;
+    width: 100px;
+    height: 100px;
+    transition: width 3s, height 2s, background-color 2s, transform 2s;
+  }
 
-}
-.anim:hover {
-  width: 100px;
-  height: 100px;
-  transform: rotate(360deg);
-}
+  .anim:hover {
+    width: 100px;
+    height: 100px;
+    transform: rotate(360deg);
+  }
 
   .h1,
   .h2 {
