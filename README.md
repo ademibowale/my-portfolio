@@ -12,7 +12,7 @@ Built With..
    - CSS.
 
    LIVE DEMO:
-   [live demo link](https://ademibowale.github.io/my-portfolio/)
+   [Live Demo Link](https://ademibowale.github.io/my-portfolio/)
 
 Getting Started:
    - To get a local copy up and running follow this simple example step.
