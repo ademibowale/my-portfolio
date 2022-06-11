@@ -5,6 +5,31 @@
   list-style: none;
 }
 
+.mobile-nav {
+  overflow: hidden;
+  position: relative;
+  padding-left: 70%;
+  
+}
+
+.mobile-nav a {
+  color: #ff6b00;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+  
+}
+
+
+
+.mobile-nav a:hover {
+  background-color: #ddd;
+  color: black;
+  }
+
+
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -498,7 +523,9 @@ footer .social-icons {
 .nav-list {
   display: none;
 }
-
+.non{
+  display: none;
+}
 .my-container {
   display: none;
 }
@@ -507,6 +534,9 @@ footer .social-icons {
   .grid-container {
     display: none;
   }
+.mobile-nav{
+  display: none;
+}
 
   .my-container {
     display: flex;
