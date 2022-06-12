@@ -12,16 +12,19 @@
     <header class="header">
       <nav class="nav">
         <a href="" class="john-doe zeeh" >ADEBOWALE</a>
-        <nav class="header-bar" ><a href="javascript:void(0);"><i class="fa fa-bars cursor" onclick="myFunction()" ></i></a></nav>
+        <nav class="header-bar" id="mySidebar" ><a href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars cursor"></i></a></nav>
       </nav>
         <!-- mobile Navigation Menu -->
-        <div class="mobile-nav">
-            <div id="myLinks">
-            <a href="#portfolio">Portfolio</a>
-            <a href="#contact">About</a>
-            <a href="#about">Contact</a>
-          </div>
-        </div>
+        
+        <ul class="mobile-nav">
+        <div id="myLinks">  
+        <li><a href="javascript:void(0)" class="menu-list" onclick="closeNav()">×</a></li>
+        <li class="animate-bar"><a href="#portfolio" class="menu-list" onclick="closeNav()">Portfolio</a></li>
+        <li class="animate-bar"><a href="#contact" class="menu-list" onclick="closeNav()">About</a></li>
+        <li class="animate-bar"><a href="#about" class="menu-list" onclick="closeNav()">Contact</a></li>
+        <div> 
+        </ul>
+     
         <ul class="nav-list">
         <li class="animate-bar"><a href="">Portfolio</a></li>
         <li class="animate-bar"><a href="">About</a></li>
