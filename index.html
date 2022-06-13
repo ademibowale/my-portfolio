@@ -12,18 +12,17 @@
     <header class="header">
       <nav class="nav">
         <a href="" class="john-doe zeeh" >ADEBOWALE</a>
-        <nav class="header-bar" id="mySidebar" ><a href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars cursor"></i></a></nav>
+        <nav class="header-bar" id="" ><a href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars cursor"></i></a></nav>
       </nav>
         <!-- mobile Navigation Menu -->
         
-        <ul class="mobile-nav">
-        <div id="myLinks">  
-        <li><a href="javascript:void(0)" class="menu-list" onclick="closeNav()">×</a></li>
-        <li class="animate-bar"><a href="#portfolio" class="menu-list" onclick="closeNav()">Portfolio</a></li>
-        <li class="animate-bar"><a href="#contact" class="menu-list" onclick="closeNav()">About</a></li>
-        <li class="animate-bar"><a href="#about" class="menu-list" onclick="closeNav()">Contact</a></li>
-        <div> 
-        </ul>
+        <div class="mobile-nav" id="myLinks">  
+        <a href="javascript:void(0)" class="menu-list" onclick="closeNav()">×</a>
+        <a href="#portfolio" class="menu-list" onclick="closeNav()">Portfolio</a>
+        <a href="#contact" class="menu-list" onclick="closeNav()">About</a>
+        <a href="#about" class="menu-list" onclick="closeNav()">Contact</a>
+        </div> 
+        
      
         <ul class="nav-list">
         <li class="animate-bar"><a href="">Portfolio</a></li>
@@ -32,7 +31,7 @@
         <li class="animate-bar non"><a href=""><img src="images/Union.png" alt=" menu"></a></li>
       </ul>
     </header>
-    <section class="main-section">
+    <section class="main-section panel">
         <div>
             <div class="anim">
                 <h1 class="h1">Hey There.</h1>
@@ -166,7 +165,7 @@
             </li>
         </ul>
     </section>
-    <section class="about-section">
+    <section class="about-section ">
         <h2 class="about-title">About me</h2>
         <div class="about">
             <p class="about-text">Hello I’m a software developer! I can help you build a product ,<br> feature or website Look through some of my work and experience! <br>If you like what you see and have a project you need coded, <br>don’t hestiate to contact me.</p>
@@ -202,7 +201,7 @@
             </li>
         </ul>
     </section>
-    <section class="contact-form">
+    <section class="contact-form ">
       <h3 class="intro-text">I am always interested in hearing about new projects, so if you'd like to chat please get in touch.</h3>
       <form class="form" action="https://formspree.io/f/xzbokwoy" method="post">
         <input type="text" id="fname" name="name" placeholder="Full Name" maxlength="30" required>
