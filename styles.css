@@ -18,8 +18,9 @@
   transition: 0.4s;
 }
 
-.active, .accordion:hover {
-  background-color: #ccc; 
+.active,
+.accordion:hover {
+  background-color: #ccc;
 }
 
 .mobile-nav {
@@ -42,20 +43,11 @@
   color: #818181;
   display: block;
   transition: 0.3s;
-  
 }
 
 .mobile-nav a:hover {
- color: #f1f1f1;
-} 
-
-/* .mobile-nav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-right: 50px;
-} */
+  color: #f1f1f1;
+}
 
 .nav {
   display: flex;
@@ -550,9 +542,11 @@ footer .social-icons {
 .nav-list {
   display: none;
 }
-.non{
+
+.non {
   display: none;
 }
+
 .my-container {
   display: none;
 }
@@ -561,9 +555,10 @@ footer .social-icons {
   .grid-container {
     display: none;
   }
-.mobile-nav {
-  display: none;
-}
+
+  .mobile-nav {
+    display: none;
+  }
 
   .my-container {
     display: flex;
