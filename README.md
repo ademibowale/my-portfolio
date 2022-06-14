@@ -1,6 +1,6 @@
-DESKTOP App VERSION
+MOBILE APP VERSION
 Project Name:
-PORTFOLIO-DESKTOP-VERSION
+PORTFOLIO-MOBILE-MENU
 
 Project Description:
 
@@ -10,8 +10,11 @@ Built With..
 
    - HTML. 
    - CSS.
+   - Javascript.
 
    LIVE DEMO:
+   Here is my portfolio where i showcase the work i have done in the past. Kindly checkout my work 
+   
    [Live Demo Link](https://ademibowale.github.io/my-portfolio/)
 
 Getting Started:
