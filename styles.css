@@ -4,31 +4,18 @@
   box-sizing: border-box;
   list-style: none;
 }
-.line-bar{
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
+
+.line-bar {
+  left: 0;
+  right: 0;
+  bottom: 0;
   width: 100%;
-  color: #6F6C6B;
-  margin-right:132px;
-margin-left: 45px;
-margin-top: -8px;
-margin-bottom: 7px;
+  color: #6f6c6b;
+  margin-right: 132px;
+  margin-left: 45px;
+  margin-top: -8px;
+  margin-bottom: 7px;
 }
-
-/* .line-bar{
-position: absolute;
-
-height: 1px;
-left: 0px;
-right: 0px;
-bottom: 0px;
-margin-right:10px;
-margin-left: 20px;
-padding-left: 50px;
-padding-right: 30px; 
-
-background: #6F6C6B;} */
 
 .accordion {
   background-color: #eee;
