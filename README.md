@@ -10,8 +10,11 @@ Built With..
 
    - HTML. 
    - CSS.
+   - JavaScript.
 
    LIVE DEMO:
+   Here is my portfolio where i showcase the work i have done in the past. Kindly checkout my work 
+   
    [Live Demo Link](https://ademibowale.github.io/my-portfolio/)
 
 Getting Started:
