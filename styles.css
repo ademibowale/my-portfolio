@@ -5,6 +5,10 @@
   list-style: none;
 }
 
+.close-but {
+  margin-left: 275px;
+}
+
 .line-bar {
   left: 0;
   right: 0;
@@ -17,45 +21,35 @@
   margin-bottom: 7px;
 }
 
-.accordion {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-  transition: 0.4s;
-}
-
-.active,
-.accordion:hover {
-  background-color: #ccc;
-}
-
 .mobile-nav {
-  height: 50%;
+  height: 100%;
   width: 0;
   position: fixed;
   z-index: 1;
   top: 0;
   right: 0;
-  background-color: #111;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
+  background-color: #3c3a39;
 }
 
 .mobile-nav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
+  font-size: 32px;
+
+  /* display: block; */
   transition: 0.3s;
-  margin-left: 135px;
+  margin-left: 28px;
+  color: #fff5e1;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  height: 50px;
 }
 
 .mobile-nav a:hover {
@@ -95,7 +89,7 @@
 .line { width: 100%; }
 
 .john-doe {
-  font-family: "roboto", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 24px;
@@ -138,7 +132,7 @@
 .h3 {
   margin-top: 0;
   color: #fff5e1;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 20px;
   font-weight: 200%;
   line-height: 15px;
@@ -152,7 +146,7 @@
 
 .paragraph-class {
   color: #fff;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 14px;
   font-weight: 400;
   margin-top: 11px;
@@ -203,7 +197,7 @@ footer .social-icons {
 }
 
 .works {
-  font-family: "Crete Round", serif;
+  font-family: 'Inter', sans-serif;
   font-size: 30px;
   font-weight: 400;
   line-height: 52px;
@@ -232,7 +226,7 @@ footer .social-icons {
 }
 
 .post-title {
-  font-family: 'Crete Round', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -242,7 +236,7 @@ footer .social-icons {
 }
 
 .post-text {
-  font-family: 'Inter', serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -251,7 +245,7 @@ footer .social-icons {
 }
 
 .list {
-  font-family: 'Inter', serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -340,7 +334,7 @@ footer .social-icons {
 }
 
 .project-title {
-  font-family: sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -349,7 +343,7 @@ footer .social-icons {
 }
 
 .project-text {
-  font-family: 'Inter', serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -402,7 +396,7 @@ footer .social-icons {
 }
 
 .about-title {
-  font-family: 'Crete Round', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 42px;
@@ -412,7 +406,7 @@ footer .social-icons {
 }
 
 .about-text {
-  font-family: 'Inter', serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -480,7 +474,7 @@ footer .social-icons {
 .intro-text {
   margin-top: 30px;
   text-align: center;
-  font-family: sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 23px;
@@ -490,7 +484,7 @@ footer .social-icons {
 
 .form {
   width: 100%;
-  font-family: sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   display: flex;
   flex-direction: column;
@@ -547,7 +541,7 @@ footer .social-icons {
   line-height: 24px;
   color: #3c3a39;
   padding-top: 12px;
-  font-family: 'inter', sans-serif;
+  font-family: 'Inter', sans-serif;
   padding-left: 12px;
   margin-top: 20px;
 }
@@ -589,7 +583,7 @@ footer .social-icons {
   }
 
   .zeeh {
-    font-family: "roboto", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 24px;
@@ -606,7 +600,7 @@ footer .social-icons {
     background-repeat: no-repeat;
     opacity: 10;
     background-size: cover;
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 100;
     font-size: 20px;
@@ -619,7 +613,7 @@ footer .social-icons {
     background-repeat: no-repeat;
     opacity: 10;
     background-size: cover;
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 100;
     font-size: 20px;
@@ -632,7 +626,7 @@ footer .social-icons {
     background-repeat: no-repeat;
     opacity: 10;
     background-size: cover;
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 100;
     font-size: 20px;
@@ -646,7 +640,7 @@ footer .social-icons {
     background-repeat: no-repeat;
     opacity: 10;
     background-size: cover;
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 100;
     font-size: 20px;
@@ -733,7 +727,7 @@ footer .social-icons {
   }
 
   .project-text {
-    font-family: 'Inter', serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -815,7 +809,7 @@ footer .social-icons {
 
   .pam {
     color: #fff;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 400;
     margin-top: 10px;
@@ -861,7 +855,7 @@ footer .social-icons {
   .h3 {
     margin-top: 0;
     color: #fff5e1;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 27px;
     font-weight: 200%;
     line-height: 0px;
