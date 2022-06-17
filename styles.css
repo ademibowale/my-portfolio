@@ -55,20 +55,25 @@
   color: #f1f1f1;
 }
 
-.display-popup{
-box-sizing: border-box;
+.display-popup,
+.display-popup-container {
 display: flex;
+box-sizing: border-box;
 flex-direction: column;
 align-items:center;
 padding: 16px;
 gap: 24px;
-position: absolute;
+position: fixed;
 width: 343px;
 height: 718px;
 left: calc(50% - 343px/2);
 top: 60px;
-background: #FFFFFF;
+}
+
+.display-popup-container {
+  background: #FFFFFF;
 border: 1px solid #DFE1E6;
+display: block;
 }
 
 
@@ -576,10 +581,15 @@ footer .social-icons {
   display: none;
 }
 
+
+
 @media screen and (min-width: 768px) {
   .grid-container {
     display: none;
   }
+
+  
+
 
   .mobile-nav {
     display: none;
@@ -616,6 +626,44 @@ footer .social-icons {
     padding: 20px 26px;
     margin: 20px -2px;
   }
+
+.desktop-popup{
+  position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+background: #FFFFFF;
+border: 1px solid #EBECF0;
+box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+}
+ .project-buttnn{
+  width: 99px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+ }
+.popup-img{
+
+  position: absolute;
+width: 659px;
+height: 448px;
+left: calc(50% - 659px/2 - 224.5px);
+top: 156px;
+}
+
 
   .bank {
     background-image: url("./images/img_Placeholderdesek2.png");
@@ -954,11 +1002,7 @@ footer .social-icons {
   }
 
   #fname,
-  #email {
-    background-color: #dbd8d7;
-    width: 100%;
-  }
-
+  #email,
   .textarea {
     background-color: #dbd8d7;
     width: 100%;
