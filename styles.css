@@ -5,7 +5,6 @@
   list-style: none;
 }
 
-
 .close-but {
   margin-left: 275px;
 }
@@ -57,27 +56,24 @@
 
 .display-popup,
 .display-popup-container {
-display: flex;
-box-sizing: border-box;
-flex-direction: column;
-align-items:center;
-padding: 16px;
-gap: 24px;
-position: fixed;
-width: 343px;
-height: 718px;
-left: calc(50% - 343px/2);
-top: 60px;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  gap: 24px;
+  position: fixed;
+  width: 343px;
+  height: 718px;
+  left: calc(50% - 343px /2);
+  top: 60px;
 }
 
 .display-popup-container {
-  background: #FFFFFF;
-border: 1px solid #DFE1E6;
-display: block;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  display: block;
 }
-
-
-
 
 .nav {
   display: flex;
@@ -581,21 +577,16 @@ footer .social-icons {
   display: none;
 }
 
-
-
 @media screen and (min-width: 768px) {
   .grid-container {
     display: none;
   }
 
-  
-
-
   .mobile-nav {
     display: none;
   }
-  
-  .display-popup{
+
+  .display-popup {
     display: none;
   }
 
@@ -627,43 +618,42 @@ footer .social-icons {
     margin: 20px -2px;
   }
 
-.desktop-popup{
-  position: absolute;
-left: 0px;
-right: 0px;
-top: 0px;
-bottom: 0px;
-background: #FFFFFF;
-border: 1px solid #EBECF0;
-box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
-}
- .project-buttnn{
-  width: 99px;
-height: 24px;
+  .desktop-popup {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #fff;
+    border: 1px solid #ebecf0;
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  }
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 17px;
-line-height: 24px;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.03em;
-color: #FFFFFF;
-flex: none;
-order: 0;
-flex-grow: 0;
- }
-.popup-img{
+  .project-buttnn {
+    width: 99px;
+    height: 24px;
+    font-family:'Inter', sans-serif; ;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #fff;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
 
-  position: absolute;
-width: 659px;
-height: 448px;
-left: calc(50% - 659px/2 - 224.5px);
-top: 156px;
-}
-
+  .popup-img {
+    left: calc(50% - 659px/2 - 224.5px);
+    position: absolute;
+    width: 659px;
+    height: 448px;
+    top: 156px;
+  }
 
   .bank {
     background-image: url("./images/img_Placeholderdesek2.png");
