@@ -56,23 +56,32 @@
 
 .display-popup,
 .display-popup-container {
-  display: flex;
+  display: none;
   box-sizing: border-box;
   flex-direction: column;
   align-items: center;
   padding: 16px;
-  gap: 24px;
   position: fixed;
-  width: 343px;
-  height: 718px;
-  left: calc(50% - 343px /2);
-  top: 60px;
+  width: 88%;
+  top: 12px;
+  margin-left: 4%;
+}
+
+.popup-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.popup-img {
+  width: 100%;
 }
 
 .display-popup-container {
   background: #fff;
   border: 1px solid #dfe1e6;
   display: block;
+  height: 100vh;
+  overflow: scroll;
 }
 
 .nav {
@@ -582,11 +591,23 @@ footer .social-icons {
     display: none;
   }
 
-  .mobile-nav {
-    display: none;
+  .img-container-fullscreen {
+    display: flex;
+    justify-content: space-around;
   }
 
-  .display-popup {
+  .popup-img-container {
+    width: 60%;
+  }
+
+  .popup-content-fullscreen {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .mobile-nav {
     display: none;
   }
 
@@ -618,16 +639,7 @@ footer .social-icons {
     margin: 20px -2px;
   }
 
-  .desktop-popup {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background: #fff;
-    border: 1px solid #ebecf0;
-    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
-  }
+  
 
   .project-buttnn {
     width: 99px;
@@ -647,14 +659,7 @@ footer .social-icons {
     flex-grow: 0;
   }
 
-  .popup-img {
-    left: calc(50% - 659px/2 - 224.5px);
-    position: absolute;
-    width: 659px;
-    height: 448px;
-    top: 156px;
-  }
-
+  
   .bank {
     background-image: url("./images/img_Placeholderdesek2.png");
     background-repeat: no-repeat;
