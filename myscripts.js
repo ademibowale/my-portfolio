@@ -25,48 +25,73 @@ contactLink.addEventListener('click', () => {
   document.getElementById('myLinks').style.width = '0%';
 });
 
+const cardContainer = document.querySelector('.project');
+const data = [
+  {
+    id: '1',
+    title: 'Profesional Art Printing Data',
+    text: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+    project_list: ['Java', 'bootstrap', 'ruby'],
+    image: 'images/Snapshoot_Portfolio.png',
+  },
 
-const cardContainer = document.querySelector('.project')
-const data = [{id: '1',
-               title: 'Profesional Art Printing Data',
-               text: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-               project_list: ['Java', 'bootstrap', 'ruby'],
-               image: 'https://img.freepik.com/free-psd/logo-mockup-grey-wall_35913-2122.jpg?w=2000'},
-               {id: '2',
-               title: 'Profesional Art Printing Data',
-               text: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-               project_list: ['html', 'bootstrap', 'ruby'],
-               image: 'images/Snapshoot_Portfolio.png'},
-               {id: '3',
-               title: 'Profesional Art Printing Data',
-               text: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-               project_list: ['html', 'bootstrap', 'ruby'],
-               image: 'images/Snapshoot_Portfolio.png'},
-               {id: '4',
-               title: 'Profesional Art Printing Data',
-               text: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-               project_list: ['html', 'bootstrap', 'ruby'],
-               image: 'images/Snapshoot_Portfolio.png'},
-               {id: '5',
-               title: 'Profesional Art Printing Data',
-               text: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-               project_list: ['html', 'bootstrap', 'ruby'],
-               image: 'images/Snapshoot_Portfolio.png'},
-               {id: '6',
-               title: 'Profesional Art Printing Data',
-               text: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-               project_list: ['html', 'bootstrap', 'ruby'],
-               image: 'images/Snapshoot_Portfolio.png'},
-               {id: '7',
-               title: 'Multi-Post Stories',
-               text: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-               project_list: ['css', 'html', 'bootstrap', 'ruby'],
-               image: 'images/Img_Placeholder22.png'},
-               ]
+  {
+    id: '2',
+    title: 'Profesional Art Printing Data',
+    text: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+    project_list: ['html', 'bootstrap', 'ruby'],
+    image: 'images/Snapshoot_Portfolio.png',
+  },
+
+  {
+    id: '3',
+    title: 'Profesional Art Printing Data',
+    text: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+    project_list: ['html', 'bootstrap', 'ruby'],
+    image: 'images/Snapshoot_Portfolio.png',
+  },
+  {
+    id: '4',
+    title: 'Profesional Art Printing Data',
+    text: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+    project_list: ['html', 'bootstrap', 'ruby'],
+    image: 'images/Snapshoot_Portfolio.png',
+  },
+  {
+    id: '5',
+    title: 'Profesional Art Printing Data',
+    text: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+    project_list: ['html', 'bootstrap', 'ruby'],
+    image: 'images/Snapshoot_Portfolio.png',
+  },
+  {
+    id: '6',
+    title: 'Profesional Art Printing Data',
+    text: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+    project_list: ['html', 'bootstrap', 'ruby'],
+    image: 'images/Snapshoot_Portfolio.png',
+  },
+  {
+    id: '7',
+    title: 'Multi-Post Stories',
+    text: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    project_list: ['css', 'html', 'bootstrap', 'ruby'],
+    image: 'images/Img_Placeholder22.png',
+  },
+
+  {
+    id: '8',
+    title: 'Multi-Post Stories',
+    text: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    project_list: ['css', 'html', 'bootstrap', 'ruby'],
+    image: 'images/Img_Placeholder22.png',
+  },
+
+];
 
 data.forEach((item, index) => {
   if (index < 6) {
-  cardContainer.innerHTML += `<li class="project-card bank">
+    cardContainer.innerHTML += `<li class="project-card bank">
   <div class="text-container ">
       <h3 class="project-title">${item.title}</h3>
       <p class="project-text">${item.text}</p>
@@ -77,18 +102,17 @@ data.forEach((item, index) => {
       </ul>
   </div>
   <button id=${item.id} onclick='handlePopup(this.id)' class="button card-button" type="button">See Project</button>
-</li>`
+</li>`;
   }
 });
 
-const popup = document.querySelector('.display-popup')
+const popup = document.querySelector('.display-popup');
 
-  const handlePopup = (btnId) => {
-    console.log('button is working')
-    popup.style.display = 'flex'
-   data.forEach(item => {
-    if (item.id == btnId) {
-      popup.innerHTML=`<div class="display-popup-container">
+const handlePopup = (btnId) => {
+  popup.style.display = 'flex';
+  data.forEach((item) => {
+    if (item.id === btnId) {
+      popup.innerHTML = `<div class="display-popup-container">
    <div>
     <nav class='popup-nav'>
    <h2 class="post-title">${item.title}</h2>
@@ -109,40 +133,36 @@ const popup = document.querySelector('.display-popup')
    </div>
    </div>
    </div>  
-</div>`
-const tech_list = popup.querySelector('.list')
-tech_list.innerHTML = ''
-console.log(tech_list)
-item.project_list.forEach(tech=>{
-  tech_list.innerHTML += `<li>${tech}</li>`
- })
+</div>`;
+      const techList = popup.querySelector('.list');
+      techList.innerHTML = '';
+      item.project_list.forEach((tech) => {
+        techList.innerHTML += `<li>${tech}</li>`;
+      });
     }
-   })
-      
-    }
-   
-    const extra = document.querySelector('.extra-class')
-    extra.addEventListener('click',(e) => {
-      handlePopup(e.target.id);
-    })
-    const extra_fullscreen = document.querySelector('.extra-class-fullscreen')
-    extra_fullscreen.addEventListener('click',(e) => {
-      handlePopup(e.target.id);
-    })
-const form=document.querySelector("#my-form")
-   const email=document.querySelector("#email")
-   const errorMsg=document.querySelector("#error");
-    function handleSubmit(e) {
-      e.preventDefault();
-      const regex = /[A-Z]/g;
-      const userEmail = email.value;
-      if (userEmail.match(regex)) {
-        errorMsg.innerHTML = 'Email should be in lower case';
-        
-      } else {
-        errorMsg.remove();
-        form.submit();
-      }
+  });
+};
 
-    }
-    form.addEventListener("submit",handleSubmit)
+const extra = document.querySelector('.extra-class');
+extra.addEventListener('click', (e) => {
+  handlePopup(e.target.id);
+});
+const extraFullscreen = document.querySelector('.extra-class-fullscreen');
+extraFullscreen.addEventListener('click', (e) => {
+  handlePopup(e.target.id);
+});
+const form = document.querySelector('#my-form');
+const email = document.querySelector('#email');
+const errorMsg = document.querySelector('#error');
+function handleSubmit(e) {
+  e.preventDefault();
+  const regex = /[A-Z]/g;
+  const userEmail = email.value;
+  if (userEmail.match(regex)) {
+    errorMsg.innerHTML = 'Email should be in lower case';
+  } else {
+    errorMsg.remove();
+    form.submit();
+  }
+}
+form.addEventListener('submit', handleSubmit);
