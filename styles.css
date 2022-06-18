@@ -587,8 +587,9 @@ footer .social-icons {
 }
 
 #pop-img {
-  margin: -5 0px;
+  margin: -5 0;
 }
+
 @media screen and (min-width: 768px) {
   .grid-container {
     display: none;
@@ -642,12 +643,10 @@ footer .social-icons {
     margin: 20px -2px;
   }
 
-  
-
   .project-buttnn {
     width: 99px;
     height: 24px;
-    font-family:'Inter', sans-serif; ;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
@@ -662,7 +661,6 @@ footer .social-icons {
     flex-grow: 0;
   }
 
-  
   .bank {
     background-image: url("./images/img_Placeholderdesek2.png");
     background-repeat: no-repeat;

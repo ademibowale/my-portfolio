@@ -120,15 +120,7 @@ item.project_list.forEach(tech=>{
    })
       
     }
-
-    // const popClose = document.querySelector('.popup-close-btn')
-    // popClose.addEventListener('click', () => {
-    //   popup.style.display = 'none'
-    // })
-
-
-
-
+   
     const extra = document.querySelector('.extra-class')
     extra.addEventListener('click',(e) => {
       handlePopup(e.target.id);
