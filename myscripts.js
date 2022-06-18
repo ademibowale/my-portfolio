@@ -29,8 +29,8 @@ const cardContainer = document.querySelector('.project');
 const data = [
   {
     id: '1',
-    title: 'Profesional Art Printing Data',
-    text: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+    title: 'Profesional Art Printing Dat',
+    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas reiciendis assumenda placeat in et qui totam sunt ullam debitis iusto quis iure mollitia, ipsam consequatur corporis perspiciatis, velit accusantium libero soluta enim pariatur impedit deleniti.',
     project_list: ['Java', 'bootstrap', 'ruby'],
     image: 'images/Snapshoot_Portfolio.png',
   },
@@ -38,7 +38,7 @@ const data = [
   {
     id: '2',
     title: 'Profesional Art Printing Data',
-    text: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas reiciendis assumenda placeat in et qui totam sunt ullam debitis iusto quis iure mollitia, ipsam consequatur corporis perspiciatis, velit accusantium libero soluta enim pariatur impedit deleniti.',
     project_list: ['html', 'bootstrap', 'ruby'],
     image: 'images/Snapshoot_Portfolio.png',
   },
@@ -46,28 +46,28 @@ const data = [
   {
     id: '3',
     title: 'Profesional Art Printing Data',
-    text: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas reiciendis assumenda placeat in et qui totam sunt ullam debitis iusto quis iure mollitia, ipsam consequatur corporis perspiciatis, velit accusantium libero soluta enim pariatur impedit deleniti.',
     project_list: ['html', 'bootstrap', 'ruby'],
     image: 'images/Snapshoot_Portfolio.png',
   },
   {
     id: '4',
     title: 'Profesional Art Printing Data',
-    text: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas reiciendis assumenda placeat in et qui totam sunt ullam debitis iusto quis iure mollitia, ipsam consequatur corporis perspiciatis, velit accusantium libero soluta enim pariatur impedit deleniti.',
     project_list: ['html', 'bootstrap', 'ruby'],
     image: 'images/Snapshoot_Portfolio.png',
   },
   {
     id: '5',
     title: 'Profesional Art Printing Data',
-    text: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas reiciendis assumenda placeat in et qui totam sunt ullam debitis iusto quis iure mollitia, ipsam consequatur corporis perspiciatis, velit accusantium libero soluta enim pariatur impedit deleniti.',
     project_list: ['html', 'bootstrap', 'ruby'],
     image: 'images/Snapshoot_Portfolio.png',
   },
   {
     id: '6',
     title: 'Profesional Art Printing Data',
-    text: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas reiciendis assumenda placeat in et qui totam sunt ullam debitis iusto quis iure mollitia, ipsam consequatur corporis perspiciatis, velit accusantium libero soluta enim pariatur impedit deleniti.',
     project_list: ['html', 'bootstrap', 'ruby'],
     image: 'images/Snapshoot_Portfolio.png',
   },
@@ -86,7 +86,6 @@ const data = [
     project_list: ['css', 'html', 'bootstrap', 'ruby'],
     image: 'images/Img_Placeholder22.png',
   },
-
 ];
 
 data.forEach((item, index) => {
