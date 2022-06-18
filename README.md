@@ -1,6 +1,6 @@
-MOBILE APP VERSION
+MOBILE AND DESKTOP APP VERSION
 Project Name:
-PORTFOLIO-MOBILE-MENU
+MY PORTFOLIO PROJECT
 
 Project Description:
 
@@ -21,7 +21,9 @@ Getting Started:
    - To get a local copy up and running follow this simple example step.
 
 Prerequisites:
-
+- In order to clone the project you need to have a git installed     in your computer
+- To run the project you will need to have a web browser installed on your computer as well.
+ 
 Setup:
 
 To get this project in your local machine, follow this steps.

@@ -104,8 +104,8 @@ const popup = document.querySelector('.display-popup')
    <div class='popup-content-fullscreen'>
    <p class="post-text">${item.text}</p>
    <div class='popup-btn-container-fullscreen'>
-   <button type="button" class="project-button">See Live<img id="pop-img" src="images/See_live.png" alt="my logo"/></button>
-   <button type="button" class="project-button">See Source<img id="pop-img" src="images/Vector_vector.png" alt="my logo"/></button>
+   <a href="https://ademibowale.github.io/my-portfolio/" target="_blank"><button type="button" class="project-button">See Live<img id="pop-img" src="images/See_live.png" alt="my logo"/></button></a>
+   <a href="https://github.com/ademibowale" target="_blank"><button type="button" class="project-button">See Source<img id="pop-img" src="images/Vector_vector.png" alt="my logo"/></button></a>
    </div>
    </div>
    </div>  
