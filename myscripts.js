@@ -90,10 +90,10 @@ const popup = document.querySelector('.display-popup')
     if (item.id == btnId) {
       popup.innerHTML=`<div class="display-popup-container">
    <div>
-   <nav class='popup-nav'>
+    <nav class='popup-nav'>
    <h2 class="post-title">${item.title}</h2>
    <a href="/" class="popup-close-btn">&times</a>
-   </nav>
+    </nav>
        <ul class="list">
        </ul>
    </div>
@@ -104,8 +104,8 @@ const popup = document.querySelector('.display-popup')
    <div class='popup-content-fullscreen'>
    <p class="post-text">${item.text}</p>
    <div class='popup-btn-container-fullscreen'>
-   <button type="button" class="project-button">See Live</button>
-   <button type="button" class="project-button">See Source</button>
+   <button type="button" class="project-button">See Live<img id="pop-img" src="images/See_live.png" alt="my logo"/></button>
+   <button type="button" class="project-button">See Source<img id="pop-img" src="images/Vector_vector.png" alt="my logo"/></button>
    </div>
    </div>
    </div>  
@@ -137,20 +137,20 @@ item.project_list.forEach(tech=>{
     extra_fullscreen.addEventListener('click',(e) => {
       handlePopup(e.target.id);
     })
+const form=document.querySelector("#my-form")
+   const email=document.querySelector("#email")
+   const errorMsg=document.querySelector("#error");
+    function handleSubmit(e) {
+      e.preventDefault();
+      const regex = /[A-Z]/g;
+      const userEmail = email.value;
+      if (userEmail.match(regex)) {
+        errorMsg.innerHTML = 'Email should be in lower case';
+        
+      } else {
+        errorMsg.remove();
+        form.submit();
+      }
 
-    const email = document.getElementById('my-form');
-const form = document.getElementById('my-form');
-const displayMsg = document.getElementById('form-message-error');
-displayMsg.innerHTML = 'Your email address should be in lowercase';
-form.addEventListener('submit', (event) => {
-  if (email.value !== email.value.toLowerCase()) {
-    event.preventDefault();
-    displayMsg.style.visibility = 'visible';
-    displayMsg.classList.add('error-msg');
-    setTimeout(() => {
-      displayMsg.style.visibility = 'hidden';
-    }, 3000);
-  } else {
-    displayMsg.style.visibility = 'hidden';
-  }
-});
+    }
+    form.addEventListener("submit",handleSubmit)

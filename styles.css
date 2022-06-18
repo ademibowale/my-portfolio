@@ -319,7 +319,7 @@ footer .social-icons {
   background: #ff6b00;
   border: none;
   color: #fff;
-  width: 40%;
+  width: 43%;
   padding: 12px 0;
   font-size: 15px;
 }
@@ -586,6 +586,9 @@ footer .social-icons {
   display: none;
 }
 
+#pop-img {
+  margin: -9 0px;
+}
 @media screen and (min-width: 768px) {
   .grid-container {
     display: none;
@@ -593,7 +596,7 @@ footer .social-icons {
 
   .img-container-fullscreen {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   .popup-img-container {
