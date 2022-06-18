@@ -40,6 +40,7 @@ Test:
    - Use google tools to inspect the web into mobile size.
 
 👤 Author1
+
 ADEBOWALE ADEGBOYE
    - GitHub: https://github.com/ademibowale
    - Twitter: https://twitter.com/Ademibowale1
@@ -52,7 +53,6 @@ Feel free to check the issues page.
 
 SHOW YOUR SUPPORT:
 Give a ⭐ if you like this project!
-
 
 ACKNOWLEDGEMENT:
 Hat tip to anyone whose code was used
