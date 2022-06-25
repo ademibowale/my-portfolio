@@ -64,7 +64,15 @@
   position: fixed;
   width: 88%;
   top: 12px;
-  margin-left: 4%;
+}
+
+.display-popup {
+  top: 0;
+  height: 100vh;
+  left: 0;
+  width: 100vw;
+  background: rgba(151, 148, 147, 0.3);
+  backdrop-filter: blur(10px);
 }
 
 .popup-nav {
