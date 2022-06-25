@@ -1,6 +1,6 @@
-DESKTOP App VERSION
+MOBILE AND DESKTOP APP VERSION
 Project Name:
-PORTFOLIO-DESKTOP-VERSION
+MY PORTFOLIO PROJECT
 
 Project Description:
 
@@ -10,15 +10,20 @@ Built With..
 
    - HTML. 
    - CSS.
+   - Javascript.
 
    LIVE DEMO:
+   Here is my portfolio where i showcase the work i have done in the past. Kindly checkout my work 
+   
    [Live Demo Link](https://ademibowale.github.io/my-portfolio/)
 
 Getting Started:
    - To get a local copy up and running follow this simple example step.
 
 Prerequisites:
-
+- In order to clone the project you need to have a git installed     in your computer
+- To run the project you will need to have a web browser installed on your computer as well.
+ 
 Setup:
 
 To get this project in your local machine, follow this steps.
@@ -35,6 +40,7 @@ Test:
    - Use google tools to inspect the web into mobile size.
 
 👤 Author1
+
 ADEBOWALE ADEGBOYE
    - GitHub: https://github.com/ademibowale
    - Twitter: https://twitter.com/Ademibowale1
@@ -47,7 +53,6 @@ Feel free to check the issues page.
 
 SHOW YOUR SUPPORT:
 Give a ⭐ if you like this project!
-
 
 ACKNOWLEDGEMENT:
 Hat tip to anyone whose code was used
