@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>My Portfolio</title>
+    <title>Software Developer Portfolio</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="styles.css">
     
@@ -12,23 +12,27 @@
     <header class="header">
       <nav class="nav">
         <a href="" class="john-doe zeeh" >ADEBOWALE</a>
-        <nav class="header-bar" id="" ><a href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars cursor"></i></a></nav>
+        <nav class="header-bar"><a href=""  class="openNav"><i class="fa fa-bars cursor"></i></a></nav>
       </nav>
         <!-- mobile Navigation Menu -->
+        
         <div class="mobile-nav" id="myLinks">  
-        <a href="javascript:void(0)" class="menu-list" onclick="closeNav()">×</a>
-        <a href="#portfolio" class="menu-list" onclick="closeNav()">Portfolio</a>
+        <div class="close-but" >
+        <a href="" class="menu-list">&times;</a>
+        </div>
+        <br><br>
+        <a href="#portfolio" class="portfolio-link">Portfolio</a>
         <div class="line-bar"><img src="images/Separtor_FullWidthBottom.png" alt="line logo"></div>
-        <a href="#about" class="menu-list" onclick="closeNav()">About</a>
+        <a href="#about" class="about-link" >About</a>
         <div class="line-bar"><img src="images/Separtor_FullWidthBottom.png" alt="line logo"></div>
-        <a href="#contact" class="menu-list" onclick="closeNav()">Contact</a>
+        <a href="#contact" class="contact-link">Contact</a>
         <div class="line-bar"><img src="images/Separtor_FullWidthBottom.png" alt="line logo"></div> 
     </div> 
           
         <ul class="nav-list">
-        <li class="animate-bar"><a href="">Portfolio</a></li>
-        <li class="animate-bar"><a href="">About</a></li>
-        <li class="animate-bar"><a href="">Contact</a></li>
+        <li class="animate-bar"><a href="#portfolio">Portfolio</a></li>
+        <li class="animate-bar"><a href="#about">About</a></li>
+        <li class="animate-bar"><a href="#contact">Contact</a></li>
         <li class="animate-bar non"><a href=""><img src="images/Union.png" alt=" menu"></a></li>
       </ul>
     </header>
@@ -72,10 +76,10 @@
                     <li>bootstrap</li>
                     <li>ruby</li>
                 </ul>
-                <button type="button" class="project-button">See Project</button>
+                <button type="button" id="8" class="extra-class project-button">See Project</button>
             </div>  
-        </div>
-        <div class="my-container">
+        </div> 
+               <div class="my-container">
             <div>
                 <img src="images/Img_Placeholder22.png" alt="mylogo"/>
             </div>
@@ -88,84 +92,17 @@
                     <li>bootstrap</li>
                     <li>ruby</li>
                 </ul>
-                <button type="button" class="project-button">See Project</button>
+                <button type="button" id="7" class="extra-class-fullscreen project-button">See Project</button>
             </div>  
         </div>
         <ul class="project">
-            <li class="project-card kard">
-                    <div class="text-container" id="bvn">
-                    <h3 class="project-title">Profesional Art Printing Data</h3>
-                    <p class="project-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                    <ul class="list-container">
-                        <li class="project-list">html</li>
-                        <li class="project-list">bootstrap</li>
-                        <li class="project-list">ruby</li>
-                    </ul>
-                    </div>
-                <button class="card-button" type="button">See Project</button>
-            </li>
-            <li class="project-card banker">
-                <div class="text-container ">
-                    <h3 class="project-title">Profesional Art Printing Data</h3>
-                    <p class="project-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                    <ul class="list-container">
-                        <li class="project-list">html</li>
-                        <li class="project-list">bootstrap</li>
-                        <li class="project-list">ruby</li>
-                    </ul>
-                </div>
-                <button class="button card-button rmv" type="button">See Project</button>
-            </li>
-            <li class="project-card bank">
-                <div class="text-container">
-                    <h3 class="project-title">Profesional Art Printing Data</h3>
-                    <p class="project-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                    <ul class="list-container">
-                        <li class="project-list">html</li>
-                        <li class="project-list">bootstrap</li>
-                        <li class="project-list">ruby</li>
-                    </ul>
-                </div>
-                <button class="button card-button rmv" type="button">See Project</button>
-            </li>
-            <li class="project-card kards">
-                <div class="text-container ">
-                    <h3 class="project-title">Profesional Art Printing Data</h3>
-                    <p class="project-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                    <ul class="list-container">
-                        <li class="project-list">html</li>
-                        <li class="project-list">bootstrap</li>
-                        <li class="project-list">ruby</li>
-                    </ul>
-                </div>
-                <button class="button card-button rmv" type="button">See Project</button>
-            </li>
-            <li class="project-card banker">
-                <div class="text-container">
-                    <h3 class="project-title">Profesional Art Printing Data</h3>
-                    <p class="project-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                    <ul class="list-container">
-                        <li class="project-list">html</li>
-                        <li class="project-list">bootstrap</li>
-                        <li class="project-list">ruby</li>
-                    </ul>
-                </div>
-                <button class="button card-button rmv" type="button">See Project</button>
-            </li>
-            <li class="project-card bank">
-                <div class="text-container ">
-                    <h3 class="project-title">Profesional Art Printing Data</h3>
-                    <p class="project-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                    <ul class="list-container">
-                        <li class="project-list">html</li>
-                        <li class="project-list">bootstrap</li>
-                        <li class="project-list">ruby</li>
-                    </ul>
-                </div>
-                <button class="button card-button rmv" type="button">See Project</button>
-            </li>
+           
         </ul>
     </section>
+     <section class="display-popup">
+        <h1></h1>
+     </section> -->
+                    <!-- Desktop-popup -->
     <section class="about-section " id="about">
         <h2 class="about-title">About me</h2>
         <div class="about">
@@ -204,11 +141,12 @@
     </section>
     <section class="contact-form" id="contact">
       <h3 class="intro-text">I am always interested in hearing about new projects, so if you'd like to chat please get in touch.</h3>
-      <form class="form" action="https://formspree.io/f/xzbokwoy" method="post">
+      <form class="form" id="my-form" action="https://formspree.io/f/xzbokwoy" method="post">
         <input type="text" id="fname" name="name" placeholder="Full Name" maxlength="30" required>
         <input id="email" name="email" type="email" placeholder="Email Address" required>
         <textarea class="textarea" name="message" maxlength="500" placeholder="text" required>Enter text here
         </textarea>
+        <small id="error"></small>
         <button class="get-button" type="submit">Get In Touch</button>
       </form>
     </section>
