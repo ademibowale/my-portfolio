@@ -10,7 +10,8 @@ Built With..
 
    - HTML. 
    - CSS.
-   - Javascript.
+
+   - JavaScript.
 
    LIVE DEMO:
    Here is my portfolio where i showcase the work i have done in the past. Kindly checkout my work 
