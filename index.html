@@ -4,52 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Software Developer Portfolio</title>
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
-      type="text/css"
-    />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <header class="header">
       <nav class="nav">
-        <a href="" class="john-doe zeeh">ADEBOWALE</a>
-        <nav class="header-bar" id="">
-          <a href="javascript:void(0);" onclick="openNav()"
-            ><i class="fa fa-bars cursor"></i
-          ></a>
-        </nav>
+        <a href="" class="john-doe zeeh" >ADEBOWALE</a>
+        <nav class="header-bar"><a href=""  class="openNav"><i class="fa fa-bars cursor"></i></a></nav>
       </nav>
-      <!-- mobile Navigation Menu -->
-      <div class="mobile-nav" id="myLinks">
-        <a href="javascript:void(0)" class="menu-list" onclick="closeNav()"
-          >×</a
-        >
-        <br />
-        <a href="#portfolio" class="menu-list" onclick="closeNav()"
-          >Portfolio</a
-        >
-        <div class="line-bar">
-          <img src="images/Separtor_FullWidthBottom.png" alt="line logo" />
+        <!-- mobile Navigation Menu -->
+        
+        <div class="mobile-nav" id="myLinks">  
+        <div class="close-but" >
+        <a href="" class="menu-list">&times;</a>
         </div>
-        <a href="#about" class="menu-list" onclick="closeNav()">About</a>
-        <div class="line-bar">
-          <img src="images/Separtor_FullWidthBottom.png" alt="line logo" />
-        </div>
-        <a href="#contact" class="menu-list" onclick="closeNav()">Contact</a>
-        <div class="line-bar">
-          <img src="images/Separtor_FullWidthBottom.png" alt="line logo" />
-        </div>
-      </div>
-
-      <ul class="nav-list">
-        <li class="animate-bar"><a href="">Portfolio</a></li>
-        <li class="animate-bar"><a href="">About</a></li>
-        <li class="animate-bar"><a href="">Contact</a></li>
-        <li class="animate-bar non">
-          <a href=""><img src="images/Union.png" alt=" menu" /></a>
-        </li>
+        <br><br>
+        <a href="#portfolio" class="portfolio-link">Portfolio</a>
+        <div class="line-bar"><img src="images/Separtor_FullWidthBottom.png" alt="line logo"></div>
+        <a href="#about" class="about-link" >About</a>
+        <div class="line-bar"><img src="images/Separtor_FullWidthBottom.png" alt="line logo"></div>
+        <a href="#contact" class="contact-link">Contact</a>
+        <div class="line-bar"><img src="images/Separtor_FullWidthBottom.png" alt="line logo"></div> 
+    </div> 
+          
+        <ul class="nav-list">
+        <li class="animate-bar"><a href="#portfolio">Portfolio</a></li>
+        <li class="animate-bar"><a href="#about">About</a></li>
+        <li class="animate-bar"><a href="#contact">Contact</a></li>
+        <li class="animate-bar non"><a href=""><img src="images/Union.png" alt=" menu"></a></li>
       </ul>
     </header>
     <section class="main-section">
@@ -102,40 +85,52 @@
         <div>
           <img src="images/img_Placeholder2.png" alt="my logo" />
         </div>
-        <div>
-          <h3 class="post-title">Multi-Post Stories</h3>
-          <p class="post-text">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. has been the industry's standard dummy text ever
-            since the 1500s, when an unknown printer took a standard dummy text.
-          </p>
-          <ul class="list">
-            <li>css</li>
-            <li>html</li>
-            <li>bootstrap</li>
-            <li>ruby</li>
-          </ul>
-          <button type="button" class="project-button">See Project</button>
+        <br>
+        <div class="grid-container">
+            <div>
+            <img src="images/img_Placeholder2.png" alt="my logo"/>
+            </div>
+            <div>
+                <h3 class="post-title">Multi-Post Stories</h3>
+                <p class="post-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+                <ul class="list">
+                    <li>css</li>
+                    <li>html</li>
+                    <li>bootstrap</li>
+                    <li>ruby</li>
+                </ul>
+                <button type="button" id="8" class="extra-class project-button">See Project</button>
+            </div>  
+        </div> 
+               <div class="my-container">
+            <div>
+                <img src="images/Img_Placeholder22.png" alt="mylogo"/>
+            </div>
+            <div>
+                <h3 class="post-title">Multi-Post Stories</h3>
+                <p class="post-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+                <ul class="list">
+                    <li>css</li>
+                    <li>html</li>
+                    <li>bootstrap</li>
+                    <li>ruby</li>
+                </ul>
+                <button type="button" id="7" class="extra-class-fullscreen project-button">See Project</button>
+            </div>  
         </div>
-      </div>
-      <div class="my-container">
-        <div>
-          <img src="images/Img_Placeholder22.png" alt="mylogo" />
-        </div>
-        <div>
-          <h3 class="post-title">Multi-Post Stories</h3>
-          <p class="post-text">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. has been the industry's standard dummy text ever
-            since the 1500s, when an unknown printer took a standard dummy text.
-          </p>
-          <ul class="list">
-            <li>css</li>
-            <li>html</li>
-            <li>bootstrap</li>
-            <li>ruby</li>
-          </ul>
-          <button type="button" class="project-button">See Project</button>
+        <ul class="project">
+           
+        </ul>
+    </section>
+     <section class="display-popup">
+        <h1></h1>
+     </section> -->
+                    <!-- Desktop-popup -->
+    <section class="about-section " id="about">
+        <h2 class="about-title">About me</h2>
+        <div class="about">
+            <p class="about-text">Hello I’m a software developer! I can help you build a product ,<br> feature or website Look through some of my work and experience! <br>If you like what you see and have a project you need coded, <br>don’t hestiate to contact me.</p>
+            <button class="button about-button" type="button">Get My Resume</button>
         </div>
       </div>
       <ul class="project">
@@ -284,35 +279,13 @@
       </ul>
     </section>
     <section class="contact-form" id="contact">
-      <h3 class="intro-text">
-        I am always interested in hearing about new projects, so if you'd like
-        to chat please get in touch.
-      </h3>
-      <form class="form" action="https://formspree.io/f/xzbokwoy" method="post">
-        <input
-          type="text"
-          id="fname"
-          name="name"
-          placeholder="Full Name"
-          maxlength="30"
-          required
-        />
-        <input
-          id="email"
-          name="email"
-          type="email"
-          placeholder="Email Address"
-          required
-        />
-        <textarea
-          class="textarea"
-          name="message"
-          maxlength="500"
-          placeholder="text"
-          required
-        >
-Enter text here
+     <h3 class="intro-text">I am always interested in hearing about new projects, so if you'd like to chat please get in touch.</h3>
+      <form class="form" id="my-form" action="https://formspree.io/f/xzbokwoy" method="post">
+        <input type="text" id="fname" name="name" placeholder="Full Name" maxlength="30" required>
+        <input id="email" name="email" type="email" placeholder="Email Address" required>
+        <textarea class="textarea" name="message" maxlength="500" placeholder="text" required>Enter text here
         </textarea>
+        <small id="error"></small>
         <button class="get-button" type="submit">Get In Touch</button>
       </form>
     </section>
