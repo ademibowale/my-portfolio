@@ -1,5 +1,6 @@
 MOBILE AND DESKTOP APP VERSION
 Project Name:
+
 MY PORTFOLIO PROJECT
 
 Project Description:
@@ -55,8 +56,10 @@ Give a ⭐ if you like this project!
 
 
 ACKNOWLEDGEMENT:
+
 Hat tip to anyone whose code was used
 Inspiration.
 etc
 ## 📝 License
+
 This project is [MIT](./MIT.md) licensed.
