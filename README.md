@@ -11,7 +11,8 @@ Built With..
 
    - HTML. 
    - CSS.
-   - Javascript.
+
+   - JavaScript.
 
    LIVE DEMO:
    Here is my portfolio where i showcase the work i have done in the past. Kindly checkout my work 
@@ -53,7 +54,6 @@ Feel free to check the issues page.
 
 SHOW YOUR SUPPORT:
 Give a ⭐ if you like this project!
-
 
 ACKNOWLEDGEMENT:
 Hat tip to anyone whose code was used
