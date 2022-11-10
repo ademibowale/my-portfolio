@@ -5,7 +5,7 @@
   list-style: none;
 }
 
-.line-bar {
+/* .line-bar {
   left: 0;
   right: 0;
   bottom: 0;
@@ -15,19 +15,21 @@
   margin-left: 45px;
   margin-top: -8px;
   margin-bottom: 7px;
+} */
+
+.line-bar {
+  position: absolute;
+  height: 1px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-right: 10px;
+  margin-left: 20px;
+  padding-left: 50px;
+  padding-right: 30px;
+  background: #6f6c6b;
 }
 
-.line-bar{
-position: absolute;
-height: 1px;
-left: 0px;
-right: 0px;
-bottom: 0px;
-margin-right:10px;
-margin-left: 20px;
-padding-left: 50px;
-padding-right: 30px;
-background: #6F6C6B;} */
 
 .accordion {
   background-color: #eee;
@@ -399,7 +401,7 @@ footer .social-icons {
   color: #5b5957;
 }
 
-.project-card {
+ .project-card {
   background-image: url("./images/professionalpic.png");
   background-repeat: no-repeat;
   opacity: 10;
@@ -636,10 +638,15 @@ footer .social-icons {
 }
 
 @media screen and (min-width: 768px) {
+  
   .grid-container {
     display: none;
   }
 
+  .project-card{
+    display: none;
+  }
+  
   .img-container-fullscreen {
     display: flex;
     justify-content: space-between;
@@ -705,7 +712,7 @@ footer .social-icons {
     order: 0;
     flex-grow: 0;
   }
-
+ 
   .bank {
     background-image: url("./images/img_Placeholderdesek2.png");
     background-repeat: no-repeat;
@@ -717,9 +724,9 @@ footer .social-icons {
     font-size: 20px;
     line-height: 44px;
     color: #fff;
-  }
+  } 
 
-  .banker {
+   /*.banker {
     background-image: url("./images/img_Placeholderdesk.png");
     background-repeat: no-repeat;
     opacity: 10;
@@ -730,9 +737,9 @@ footer .social-icons {
     font-size: 20px;
     line-height: 44px;
     color: #fff;
-  }
+  } */
 
-  .kard {
+   .kard {
     background-image: url("./images/img_Placeholder13.png");
     background-repeat: no-repeat;
     opacity: 10;
@@ -856,7 +863,7 @@ footer .social-icons {
     padding: 12px;
     width: 100%;
     font-size: 25px;
-    margin-top: 277px;
+    /* margin-top: 277px; */
   }
 
   .card-button:enabled {
