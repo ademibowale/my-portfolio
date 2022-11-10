@@ -17,9 +17,8 @@
   margin-bottom: 7px;
 }
 
-/* .line-bar{
+.line-bar{
 position: absolute;
-
 height: 1px;
 left: 0px;
 right: 0px;
@@ -41,6 +40,7 @@ background: #6F6C6B;} */
   outline: none;
   font-size: 15px;
   transition: 0.4s;
+}
 
 .close-but {
   margin-left: 275px;
