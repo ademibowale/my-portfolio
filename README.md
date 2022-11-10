@@ -52,11 +52,11 @@ ADEBOWALE ADEGBOYE
 ####Check out my other Apps
 Github Page    | Live Site
 ------------------- | ----------
- [leade-board]      | [https://leader-board-hycrown-app.netlify.app/]
+ [Leader-Board-App] | [https://leader-board-hycrown-app.netlify.app/]
  [Capstone-project] | [https://ademibowale.github.io/Capstone_projects/]
- [book-store]       | []
+ [Book-store]       | []
  [Calculator-app]   | []
- [My-portfolio]     | [https://ademibowale.github.io/my-portfolio/]
+ [portfolio]        | [https://ademibowale.github.io/my-portfolio/]
  []                 | []
  []                 | []
 
@@ -74,13 +74,13 @@ Github Page    | Live Site
 [Book-store]:https://github.com/ademibowale/CM_Bookstore
 [book-store.herokuapp.com]:https://book-store.herokuapp.com
 
-[Checktodo app]:https://github.com/kenyacode/checktodo
-[checktodo.herokuapp.com]:https://checktodo.herokuapp.com/
+[Calculator-App]:https://github.com/ca/checktodo
+[Calculator-App.github.com]:https://calculator.github.com/
 
-[Leader-Board]:https://github.com/ademibowale/Leader-Board
+[Leader-Board-App]:https://github.com/ademibowale/Leader-Board
 [leaderboard.herokuapp]:https://leaderborad.herokuapp.com
 
-[Capstone Project]:https://github.com/ademibowale/Capstone_projects.git
+[Capstone-project]:https://github.com/ademibowale/Capstone_projects.git
 [capstone-project]:https://ademibowale.github.io/Capstone_projects/
 
 
