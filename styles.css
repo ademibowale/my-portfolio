@@ -18,7 +18,6 @@
   background: #6f6c6b;
 }
 
-
 .accordion {
   background-color: #eee;
   color: #444;
@@ -34,18 +33,6 @@
 
 .close-but {
   margin-left: 275px;
-}
-
-.line-bar {
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  color: #6f6c6b;
-  margin-right: 132px;
-  margin-left: 45px;
-  margin-top: -8px;
-  margin-bottom: 7px;
 }
 
 .mobile-nav {
@@ -389,7 +376,7 @@ footer .social-icons {
   color: #5b5957;
 }
 
- .project-card {
+.project-card {
   background-image: url("./images/professionalpic.png");
   background-repeat: no-repeat;
   opacity: 10;
@@ -626,15 +613,14 @@ footer .social-icons {
 }
 
 @media screen and (min-width: 768px) {
-  
   .grid-container {
     display: none;
   }
 
-  .project-card{
+  .project-card {
     display: none;
   }
-  
+
   .img-container-fullscreen {
     display: flex;
     justify-content: space-between;
@@ -700,7 +686,7 @@ footer .social-icons {
     order: 0;
     flex-grow: 0;
   }
- 
+
   .bank {
     background-image: url("./images/img_Placeholderdesek2.png");
     background-repeat: no-repeat;
@@ -712,9 +698,9 @@ footer .social-icons {
     font-size: 20px;
     line-height: 44px;
     color: #fff;
-  } 
-  
-   .kard {
+  }
+
+  .kard {
     background-image: url("./images/img_Placeholder13.png");
     background-repeat: no-repeat;
     opacity: 10;
@@ -739,10 +725,6 @@ footer .social-icons {
     font-size: 20px;
     line-height: 44px;
     color: #fff;
-  }
-
-  .project-card {
-    height: 400px;
   }
 
   .recent-work {
