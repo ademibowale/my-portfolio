@@ -47,6 +47,46 @@ ADEBOWALE ADEGBOYE
    - Twitter: https://twitter.com/Ademibowale1
    - LinkedIn: https://www.linkedin.com/in/adebowale-adegboye-143568221/
 
+
+### Contact Me [LinkedIn](https://www.linkedin.com/in/kenyacode) or [Email](mailto:kenyadevelop@gmail.com)
+####Check out my other Apps
+Github Page    | Live Site
+------------------- | ----------
+ [leade-board]      | [https://leader-board-hycrown-app.netlify.app/]
+ [Capstone-project ]| [https://ademibowale.github.io/Capstone_projects/]
+ [book-store]       | []
+ [Calculator app]   | []
+ []  | [jmovie.herokuapp.com]
+ [Checktodo app]    | [checktodo.herokuapp.com]
+ [Jobs Board app]   | [hire-dev.herokuapp.com]
+
+- no longer using herokuapp Aug 2021
+
+[Bookstore]:https://github.com/ademibowale/CM_Bookstore.git
+[bookstore.herokuapp.com]:https://bookstore.herokuapp.com
+
+[Raddit app]:https://github.com/kenyacode/raddit
+[jmraddit.herokuapp.com]:https://jmraddit.herokuapp.com
+
+[Recipe app]:https://github.com/kenyacode/recipe-app
+[chakula.herokuapp.com]:https://chakula.herokuapp.com
+
+[Book-store]:https://github.com/ademibowale/CM_Bookstore
+[book-store.herokuapp.com]:https://book-store.herokuapp.com
+
+[Checktodo app]:https://github.com/kenyacode/checktodo
+[checktodo.herokuapp.com]:https://checktodo.herokuapp.com/
+
+[Leader-Board]:https://github.com/ademibowale/Leader-Board
+[leaderboard.herokuapp]:https://leaderborad.herokuapp.com
+
+[Capstone Project]:https://github.com/ademibowale/Capstone_projects.git
+[capstone-project]:https://ademibowale.github.io/Capstone_projects/
+
+
+
+
+
 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 
