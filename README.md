@@ -49,7 +49,8 @@ ADEBOWALE ADEGBOYE
 
 
 ### Contact Me [LinkedIn](https://www.linkedin.com/in/tech-adebowale-adegboye/) or [Email](ademibowaleadegboye@gmail.com)
-####Check out my other Apps
+  ### Check out my other Apps
+
 Github Page    | Live Site
 -------------------   | ----------
  [Leader-Board-App]   | [https://leader-board-hycrown-app.netlify.app/]
