@@ -48,7 +48,7 @@ ADEBOWALE ADEGBOYE
    - LinkedIn: https://www.linkedin.com/in/adebowale-adegboye-143568221/
 
 
-### Contact Me [LinkedIn](https://www.linkedin.com/in/kenyacode) or [Email](mailto:kenyadevelop@gmail.com)
+### Contact Me [LinkedIn](https://www.linkedin.com/in/tech-adebowale-adegboye/) or [Email](ademibowaleadegboye@gmail.com)
 ####Check out my other Apps
 Github Page    | Live Site
 ------------------- | ----------
