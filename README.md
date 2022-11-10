@@ -54,7 +54,7 @@ Github Page    | Live Site
 -------------------   | ----------
  [Leader-Board-App]   | [https://leader-board-hycrown-app.netlify.app/]
  [Capstone-project]   | [https://ademibowale.github.io/Capstone_projects/]
- [Book-store]         | [https://bookstore-cms-books.netlify.app/]
+ [Bookstore]          | [https://bookstore-cms-books.netlify.app/]
  [Calculator-app]     | [https://magic-calculator-machine.netlify.app/]
  [portfolio]          | [https://ademibowale.github.io/my-portfolio/]
  [covid19-tracker-app]| [https://corona-virus-pandemic.netlify.app/]
