@@ -5,18 +5,6 @@
   list-style: none;
 }
 
-/* .line-bar {
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  color: #6f6c6b;
-  margin-right: 132px;
-  margin-left: 45px;
-  margin-top: -8px;
-  margin-bottom: 7px;
-} */
-
 .line-bar {
   position: absolute;
   height: 1px;
@@ -725,20 +713,7 @@ footer .social-icons {
     line-height: 44px;
     color: #fff;
   } 
-
-   /*.banker {
-    background-image: url("./images/img_Placeholderdesk.png");
-    background-repeat: no-repeat;
-    opacity: 10;
-    background-size: cover;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 100;
-    font-size: 20px;
-    line-height: 44px;
-    color: #fff;
-  } */
-
+  
    .kard {
     background-image: url("./images/img_Placeholder13.png");
     background-repeat: no-repeat;
@@ -863,7 +838,6 @@ footer .social-icons {
     padding: 12px;
     width: 100%;
     font-size: 25px;
-    /* margin-top: 277px; */
   }
 
   .card-button:enabled {
