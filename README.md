@@ -58,9 +58,7 @@ Github Page    | Live Site
  [Calculator-app]   | []
  [portfolio]        | [https://ademibowale.github.io/my-portfolio/]
  []                 | []
- []                 | []
-
-- no longer using herokuapp Aug 2021
+ []                 |
 
 [Bookstore]:https://github.com/ademibowale/CM_Bookstore.git
 [bookstore.github.com]:https://bookstore.github.com
