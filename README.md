@@ -52,13 +52,39 @@ ADEBOWALE ADEGBOYE
 ####Check out my other Apps
 Github Page    | Live Site
 ------------------- | ----------
- [leade-board ]     | [https://leader-board-hycrown-app.netlify.app/]
- [Capstone-project ]| [https://ademibowale.github.io/Capstone_projects/ ]
- [book-store ]      | []
- [Calculator-app ]  | []
- [My-portfolio ]    | [https://ademibowale.github.io/my-portfolio/]
+ [leade-board]      | [https://leader-board-hycrown-app.netlify.app/]
+ [Capstone-project] | [https://ademibowale.github.io/Capstone_projects/]
+ [book-store]       | []
+ [Calculator-app]   | []
+ [My-portfolio]     | [https://ademibowale.github.io/my-portfolio/]
  []                 | []
  []                 | []
+
+- no longer using herokuapp Aug 2021
+
+[Bookstore]:https://github.com/ademibowale/CM_Bookstore.git
+[bookstore.github.com]:https://bookstore.github.com
+
+[portfolio]:https://github.com/ademibowale/my-portfolio
+[portfolio.github.com]:https://portfolio.github.com
+
+[Recipe app]:https://github.com/kenyacode/recipe-app
+[chakula.herokuapp.com]:https://chakula.herokuapp.com
+
+[Book-store]:https://github.com/ademibowale/CM_Bookstore
+[book-store.herokuapp.com]:https://book-store.herokuapp.com
+
+[Checktodo app]:https://github.com/kenyacode/checktodo
+[checktodo.herokuapp.com]:https://checktodo.herokuapp.com/
+
+[Leader-Board]:https://github.com/ademibowale/Leader-Board
+[leaderboard.herokuapp]:https://leaderborad.herokuapp.com
+
+[Capstone Project]:https://github.com/ademibowale/Capstone_projects.git
+[capstone-project]:https://ademibowale.github.io/Capstone_projects/
+
+
+
 
 
 🤝 Contributing
