@@ -17,7 +17,7 @@ Built With..
    LIVE DEMO:
    Here is my portfolio where i showcase the work i have done in the past. Kindly checkout my work 
    
-   [Live Demo Link](https://ademibowale.github.io/my-portfolio/)
+   [Live Demo Link](https://ademibowale-portfolio-project.netlify.app/)
 
 Getting Started:
    - To get a local copy up and running follow this simple example step.
@@ -56,7 +56,7 @@ Github Page    | Live Site
  [Capstone-project]   | [https://ademibowale.github.io/Capstone_projects/]
  [Bookstore]          | [https://bookstore-cms-books.netlify.app/]
  [Calculator-app]     | [https://magic-calculator-machine.netlify.app/]
- [portfolio]          | [https://ademibowale.github.io/my-portfolio/]
+ [portfolio]          | [https://ademibowale-portfolio-project.netlify.app/]
  [covid19-tracker-app]| [https://corona-virus-pandemic.netlify.app/]
                       |
 
