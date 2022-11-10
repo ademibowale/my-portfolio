@@ -55,9 +55,9 @@ Github Page    | Live Site
  [Leader-Board-App]   | [https://leader-board-hycrown-app.netlify.app/]
  [Capstone-project]   | [https://ademibowale.github.io/Capstone_projects/]
  [Book-store]         | [https://bookstore-cms-books.netlify.app/]
- [Covid19-tracker-app]| [https://corona-virus-pandemic.netlify.app/]
+ [Calculator-app]     | [https://magic-calculator-machine.netlify.app/]
  [portfolio]          | [https://ademibowale.github.io/my-portfolio/]
- [Calculator-App]     | [https://magic-calculator-machine.netlify.app/]
+ [covid19-tracker-app]| [https://corona-virus-pandemic.netlify.app/]
                       |
 
 [Bookstore]:https://github.com/ademibowale/CM_Bookstore.git
@@ -66,14 +66,14 @@ Github Page    | Live Site
 [portfolio]:https://github.com/ademibowale/my-portfolio
 [portfolio.github.com]:https://portfolio.github.com
 
-[covid19-tracker-app]:https://github.com/ademibowale/Covid-19-tracker
-[covid19.github.com]:https://covid19.github.com
+[covid19-tracker-app]:https://github.com/ademibowale/Covid-19-tracker.git
+[covid19-track.github.com]:https://covid19.github.com
 
-[Calculator-App]:https://github.com/ademibowale/calculator-machine-.git
+[Calculator-App]:https://github.com/ademibowale/calculator-machine-
 [Calculator-App.github.com]:https://calculator.github.com/
 
 [Leader-Board-App]:https://github.com/ademibowale/Leader-Board
-[leaderboard.herokuapp]:https://leaderborad.herokuapp.com
+[leaderboard.github]:https://leaderborad.github.com
 
 [Capstone-project]:https://github.com/ademibowale/Capstone_projects.git
 [capstone-project]:https://ademibowale.github.io/Capstone_projects/
