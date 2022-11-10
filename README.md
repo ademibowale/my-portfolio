@@ -52,11 +52,11 @@ ADEBOWALE ADEGBOYE
 ####Check out my other Apps
 Github Page    | Live Site
 ------------------- | ----------
- [leade-board]      | [https://leader-board-hycrown-app.netlify.app/]
- [Capstone-project]| [https://ademibowale.github.io/Capstone_projects/]
- [book-store]       | []
- [Calculator-app]   | []
- [My-portfolio]     | [https://ademibowale.github.io/my-portfolio/]
+ [leade-board ]     | [https://leader-board-hycrown-app.netlify.app/]
+ [Capstone-project ]| [https://ademibowale.github.io/Capstone_projects/ ]
+ [book-store ]      | []
+ [Calculator-app ]  | []
+ [My-portfolio ]    | [https://ademibowale.github.io/my-portfolio/]
  []                 | []
  []                 | []
 
