@@ -59,7 +59,7 @@ Github Page    | Live Site
  [Calculator-app]     | [https://magic-calculator-machine.netlify.app/]
  [portfolio]          | [https://ademibowale-portfolio-project.netlify.app/]
  [covid19-tracker-app]| [https://corona-virus-pandemic.netlify.app/]
-                      |
+                      
 
 [Bookstore]:https://github.com/ademibowale/CM_Bookstore.git
 [bookstore.github.com]:https://bookstore.github.com
