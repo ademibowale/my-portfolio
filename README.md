@@ -47,20 +47,28 @@ ADEBOWALE ADEGBOYE
    - Twitter: https://twitter.com/Ademibowale1
    - LinkedIn: https://www.linkedin.com/in/adebowale-adegboye-143568221/
    
+   ### Contact Me [LinkedIn](https://www.linkedin.com/in/tech-adebowale-adegboye/) or [Email](ademibowaleadegboye@gmail.com)
+  ### Check out my other Apps
+   
    <!-- === ⭐ PORTFOLIO LINE START ⭐ === -->
 
 | Author                  | Screenshot                                                                                                                                                                | Live URL                                                                            | Repo                                                                     | Tech Stack                                                                                        |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------- |
-| Ademibowale Adegboye             | ![Screenshot](https://user-images.githubusercontent.com/92458236/215344329-a70f50fb-563b-4615-a17e-3b9ca9361181.png)                                                   | [ademibowale.com](https://ademibowale-professional-portfolio.netlify.app/)                                              | [GitHub](https://github.com/ademibowale/Professional-Portfolio-Project)                                | React js, Tailwinds,JavaScript,                                                                             |
-| Kent C. Dodds           | ![kent-c-doddds](https://user-images.githubusercontent.com/62628408/169700953-63aaedb6-4784-4f42-a356-84d6506f8bf3.png)                                                   | [kentcdodds.com](https://kentcdodds.com)                                            | [GitHub](https://github.com/kentcdodds/kentcdodds.com)                   | React, TypeScript, Remix, Prisma, Redis, Postgres, CSS                                            |
-| Brittany Chiang         | ![britanny-chiang](https://user-images.githubusercontent.com/62628408/163446015-fc50d2c1-3cee-42fb-b80a-b692ad7eef1e.png)                                                 | [brittanychiang.com](https://brittanychiang.com)                                    | [GitHub](https://github.com/bchiang7/v4)                                 | React, Gatsby, Styled-components                                                                  |
-| Braydon Coyer           | ![braydon-coyer](https://user-images.githubusercontent.com/62628408/163818384-cebba9c4-e0ac-4172-bced-7011837bb292.png)                                                   | [braydoncoyer.dev](https://braydoncoyer.dev/)                                       | [GitHub](https://github.com/braydoncoyer/braydoncoyer.dev)               | React, TypeScript, NextJS, Tailwindcss, Notion API, Supabase                                      |
-| Tania Rascia            | ![tania-rascia](https://user-images.githubusercontent.com/62628408/163881127-a67615f6-2157-4478-a4b5-46b067a4bb9f.png)                                                    | [taniarascia.com](https://taniarascia.com)                                          | [GitHub](https://github.com/taniarascia/taniarascia.com)                 | React, Gatsby, CSS, Netlify, NodeJS                                                               |
-| Jemima Abu              | ![jemima-abu](https://user-images.githubusercontent.com/62628408/164337756-03930aad-4702-4926-ba58-c388c06de187.png)                                                      | [jemimaabu.com](https://jemimaabu.com)                                              | [GitHub](https://github.com/jemimaabu/portfolio)                         | HTML, CSS, JavaScript.                                                                            |
+| ADEBOWALE ADEGBOYE            | ![Screenshot](https://user-images.githubusercontent.com/92458236/215344329-a70f50fb-563b-4615-a17e-3b9ca9361181.png)                                                   | [ademibowale.com](https://ademibowale-professional-portfolio.netlify.app/)                                              | [GitHub](https://github.com/ademibowale/Professional-Portfolio-Project)                                | React js, Tailwinds,JavaScript,                                                                             |
+| ADEBOWALE ADEGBOYE           | ![covid_19_app](https://user-images.githubusercontent.com/92458236/215344980-ad25685d-b3dd-4ff4-b6fe-a4b52707c5ee.png)                                                   | [Corona-virus](https://corona-virus-pandemic.netlify.app/)                                            | [GitHub](https://github.com/ademibowale/Covid-19-tracker)                   | React, CSS,Redux                                               |
+| ADEBOWALE ADEGBOYE         | ![Screenshot (36)](https://user-images.githubusercontent.com/92458236/215345621-43efe6c3-7171-4a71-b36b-0eda91c7e2bd.png)                                                 | [Bookstore](https://bookstore-cms-books.netlify.app/)                                    | [GitHub](https://github.com/ademibowale/CM_Bookstore)                                 | React, Gatsby, Styled-components                                                                  |
+| ADEBOWALE ADEGBOYE           | ![Screenshot (37)](https://user-images.githubusercontent.com/92458236/215345703-f9b86199-98f5-4fd4-a350-1ed84dd605db.png)                                                   | [Tesla Clone](https://tesla-clone-ey2n-lczk9quc6-ademibowale.vercel.app/)                                       | [GitHub](https://github.com/ademibowale/Tesla-clone)               | React, Tailwindcss,                                      |
+| ADEBOWALE ADEGBOYE & Nickemma            | ![free_game](https://user-images.githubusercontent.com/92458236/215346168-fa523c93-ac92-45a5-b0c2-f2631a122414.png)                                                   | [Group project](https://nickemma.github.io/capstone-project-kanban/)                                          | [GitHub](https://github.com/ademibowale/capstone-project-kanban)                 | React,, CSS, Netlify, NodeJS ,API          |
+| ADEBOWALE ADEGBOYE            | ![entainment_page](https://user-images.githubusercontent.com/92458236/215346627-8c953149-df00-4671-9f30-f4b0aaa3b86c.png)                                                   | [Entertainment Page](https://ademibowale.github.io/Capstone_projects/)                                          | [GitHub](https://github.com/ademibowale/Capstone_projects)                 | React,, CSS, Netlify, NodeJS ,API          |
 
 
-### Contact Me [LinkedIn](https://www.linkedin.com/in/tech-adebowale-adegboye/) or [Email](ademibowaleadegboye@gmail.com)
-  ### Check out my other Apps
+If you like this project and want to give back, consider buying me a coffee. I'll appreciate every cup. ☕
+
+<a href="https://buymeacoffee.com/evavic44">
+  <img width="170px" alt="bmc-button" src="https://user-images.githubusercontent.com/62628408/163418953-1d32bf9c-317b-44ca-b773-44e36140fc9d.png">
+</a>
+
+
 
 Github Page    | Live Site
 -------------------   | ----------
@@ -109,4 +117,8 @@ etc
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
+
+
+
+
 
